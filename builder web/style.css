@@ -1,0 +1,168 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.bg{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url('gym-disks-weight-bodybuilding-4k_1540063069.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.bg .nav{
+    float: left;
+    height: 100vh;
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.nav .logo{
+    width: 20%;
+    height: 20vh;
+    color: white;
+    
+}
+.nav .logo h2{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 50px;
+}
+.nav .option{
+    width: 20%;
+    height: 80vh;
+
+}
+.nav .option ul li{
+    margin-top: 20px;
+    
+}
+.nav .option a{
+    padding: 10px 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.nav .option a:hover{
+    background-color: yellow;
+    color: red;
+    text-decoration: underline;
+    text-shadow: 0 0 10PX black,0 0 10PX black,0 0 10PX black;
+}
+.bg .head{
+    width: 70%;
+    height: 15vh;
+    padding: 0px 10px;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+}
+.bg .head a{
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 0 1px black,0 0 2px black,0 0 3px black;
+}
+.bg .head a:hover{
+    background-color: yellow;
+    color: red;
+    text-decoration: underline;
+}
+.bg .content{
+    width: 70%;
+    height: 60vh;
+    font-size: 40px;
+    text-transform: uppercase;
+ 
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4),0 0 10px rgba(0, 0, 0, 0.4),
+    0 0 10px rgba(0, 0, 0, 0.4);  
+    
+}
+
+.bg .content input{
+    margin-left: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+}
+.bg .content input:hover{
+    border:2px solid blue;
+    color: blue;
+}
+.bg .content .box{
+    float: right;
+    width: 400px;
+    height: 380px;
+    padding: 20px;
+    opacity: 1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8),0 0 10px rgba(0, 0, 0, 0.8),
+    0 0 10px rgba(0, 0, 0, 0.8);
+    font-size: 12px;
+}
+.bg .content .box span{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.bg .content .box h2{
+    margin-top: 50px;
+    margin-left: 130px;
+    font-size: 30px;
+}
+.bg .content .box input{
+    margin-top: 20px;
+    width: fit-content;
+    height: 20px;
+    border-radius: 2px ;
+    font-size: 10px;
+}
+.bg .content .box button{
+    margin-top: 80px;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    outline: none;
+    background-color: royalblue;
+}
+.bg .content .box button:hover{
+    background-color: white;
+    color: royalblue;
+    border: 4px solid royalblue;
+}
+.bg .content .box button:hover a{
+    color: royalblue;
+    text-decoration: underline;
+}
+.bg .content .box button a{
+    text-decoration: none;
+    color: white;
+}
+.bg .footer{
+    width: 50%;
+
+    float: right;
+    color: white;
+    margin-top: 60px;
+    margin-left: 150px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 900;
+
+}
+
